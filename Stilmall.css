@@ -1,0 +1,11 @@
+body{background-color: blueviolet;}
+header{background-color: yellow;}
+main{background-color: yellow;}
+footer{
+    background-color:rgb(255,255,255);
+    min-height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}

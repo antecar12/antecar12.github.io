@@ -3,3 +3,4 @@ fieldset#summary{padding: 20px;}
 table{padding: 10px;}
 th{color:darkblue; font-family:sans-serif;}
 td{border-bottom: thin solid black;}
+tfoot{background-color:burlywood;}

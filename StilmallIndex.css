@@ -1,0 +1,25 @@
+fieldset#login{background-color: antiquewhite;}
+fieldset#info{
+    background-color:dodgerblue;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 13px;
+}
+fieldset#arbeten
+{
+    background-color: antiquewhite;
+    display:inline-block;
+    width: 130px;
+    vertical-align: top;
+    
+}
+fieldset#arbeten legend{
+    font-size: 1.5em;
+    font-weight: bold
+}
+p{
+    font-family:monospace;
+    display: inline-block;
+}
+fieldset#footer{background-color: antiquewhite}

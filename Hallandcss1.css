@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(207,199,255);
+    display: block;
+    margin: auto;
+    width: 83.5%;
+    font-family:sans-serif;
+}
+h1{
+    display: block;
+    background-color:rgb(144,0,255);
+    color: white;
+    padding: 5px;
+}
+header{
+    display: block;
+    background-color:rgb(194,159,255);
+    padding:
+}
+p#intro{
+    font-weight: bold;
+}
+img{
+    width: 300px;
+}

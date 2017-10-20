@@ -1,0 +1,37 @@
+@font-face {
+font-family: "Dopestyle";
+src: url("Fonts/Dopestyle.ttf");
+}
+header{
+    background-image: url(homestudio1.jpg);
+    color: white;
+    height: 520px;
+    background-position:0 25%;
+}
+h1#prodbud{
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 120px;
+    font-family: Dopestyle;
+    font-weight:normal;
+}
+p#slogan{
+    margin: 0 15px;
+    font-size: 20px;
+    font-family: 'Courgette';
+}
+.navigation{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: white solid;
+    padding: 0 10px;
+}
+.navigation:hover{
+    background-color: white;
+    border: black solid;
+    color: black;
+    box-shadow: 2px 2px 20px black;
+}

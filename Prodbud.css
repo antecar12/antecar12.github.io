@@ -2,6 +2,14 @@
 font-family: "Dopestyle";
 src: url("Fonts/Dopestyle.ttf");
 }
+body{
+    background-image: url(greytexture.jpg);
+    background-size: cover;
+}
+main{
+    margin: auto;
+    width: 50%;
+}
 header{
     background-image: url(homestudio1.jpg);
     color: white;
@@ -34,4 +42,10 @@ p#slogan{
     border: black solid;
     color: black;
     box-shadow: 2px 2px 20px black;
+}
+p#about{
+    display: none;
+}
+p#about:hover{
+    
 }

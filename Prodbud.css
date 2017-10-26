@@ -35,7 +35,7 @@ p#slogan{
     color: white;
     background-color: black;
     border: white solid;
-    padding: 0 10px;
+    padding: 0 13.7px;
 }
 .navigation:hover{
     background-color: white;
@@ -44,8 +44,9 @@ p#slogan{
     box-shadow: 2px 2px 20px black;
 }
 p#about{
-    display: none;
-}
-p#about:hover{
-    
+    background-color: white;
+    padding: 20px;
+    border: black solid;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
 }

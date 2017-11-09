@@ -1,0 +1,33 @@
+img{
+    max-width: 500px;
+}
+header{
+    background-color: dimgrey;
+    padding: 1px 30px;
+    color: white;
+    font-family: Courgette;
+    font-size: 30px;
+}
+main {
+    margin: auto;
+    width: 70%;
+  min-height: calc(100vh - 50px);
+  padding: 20px;
+    background-color: 
+}
+footer {
+    padding: 15px;
+    color: white;
+    height: 50px;
+    background-color:dimgrey;
+}
+footer a{
+    text-decoration: none;
+    color: skyblue;
+}
+body{
+    background-image: url(dogsncats.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}

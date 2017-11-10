@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+}
+header{
+    padding: 0 5px;
+    display: block;
+    background-color: darkgrey;
+}
+header p{
+    margin: 0;
+}
+header h1{
+    margin: 0;
+}
+nav{
+    background-color:orange;
+    padding: 10px 5px;
+}
+main{
+    padding: 0 5px;
+}
+img{
+    margin: auto;
+    width: 100%;
+}
+@media (min-width: 600px){
+    nav{
+        display: inline-block;
+        width: 15%;
+        height: 100%;
+        vertical-align: top;
+    }
+    main{
+        display: inline-block;
+        width: 80%;
+    }
+    img{
+        padding: 15px;
+        width: 250px;
+        float: left;
+    }
+}

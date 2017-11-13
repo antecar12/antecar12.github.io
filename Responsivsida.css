@@ -30,6 +30,9 @@ img{
         height: 100%;
         vertical-align: top;
     }
+    nav a{
+        display: inline-block;
+    }
     main{
         display: inline-block;
         width: 80%;

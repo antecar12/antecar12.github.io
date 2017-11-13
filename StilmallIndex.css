@@ -1,22 +1,66 @@
-.dropdown{
-    position: relative;
-    display: inline-block;
+body{
+    background-image: url(sky.jpg);
+    background-size: cover;
 }
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
+nav{
+    width: 60%;
+    margin: auto;
+    border: solid white;
 }
-.dropdown:hover .dropdown-content{
+header{
+    background: linear-gradient(to bottom right, blue , darkblue);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    font-size: 30px;
+}
+header h1{
+    margin: 0;
+}
+footer{
+    background: linear-gradient(to bottom right, blue , darkblue);
+    text-align: center;
+    padding: 20px 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+main{
+    background: linear-gradient(to bottom right, white , lightblue);
+    height: 567px;
+}
+main h2{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+main a{
+    text-align: center;
     display: block;
-}
-span{
-    font-family: sans-serif;
-    font-size: 25px;
-    background-color: limegreen;
     padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 600px){
+    nav{
+        width: 100%;
+    }
+    header h1{
+        font-size: 75px
+    }
+    main h2{
+        font-size: 50px
+    }
+    main a{
+        font-size: 30px;
+    }
+    main{
+        background-image: url(sky.jpg);
+    }
+    body{
+        background-image: url();
+    }
 }

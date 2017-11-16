@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DOM</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="DOM.js"></script>
         <style>
             body{
                 background-color: gainsboro;
@@ -21,7 +23,18 @@
                 background: lightblue;
             }
             button{
-                background-color: orange;
+                font-size: 18px;
+                background-color: skyblue;
+                color: white;
+            }
+            #info{
+                background-color: white;
+                display: none;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            #openinfo{
+                cursor: pointer;
             }
         </style>
     </head>
@@ -37,5 +50,10 @@
                 <button type="button">Tryck på mig</button>
                 <p>Jag lovar det är inte virus.</p>
             </main>
+            <footer>
+                <h2>JQuery</h2>
+                <button id="openinfo">Mer info...</button>
+                <div id="info">som inte har någon betydelse, hejdå. Stick.</div>
+            </footer>
         </body>
 </html>

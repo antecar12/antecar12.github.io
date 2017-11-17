@@ -36,6 +36,18 @@
             #openinfo{
                 cursor: pointer;
             }
+            .selected{
+                background-color: blue;
+                color: white;
+            }
+            input[type="color"]{
+                width:30px;
+                height:30px;
+            }
+            #flyga{
+                max-height: 150px;
+                position: absolute;
+            }
         </style>
     </head>
         <body>
@@ -54,6 +66,16 @@
                 <h2>JQuery</h2>
                 <button id="openinfo">Mer info...</button>
                 <div id="info">som inte har någon betydelse, hejdå. Stick.</div>
+                
+                <ol>
+                    <li>Nummer 1</li>
+                    <li>Nummer 2</li>
+                    <li>Nummer 3</li>
+                </ol>
+                <form>
+                    <h2>Färgval</h2>
+                    <input type="color" id="bgcolor" value="#ffffff">
+                </form>
             </footer>
         </body>
 </html>

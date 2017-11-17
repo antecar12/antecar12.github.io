@@ -6,47 +6,31 @@ body{
     background-image: url(greytexture.jpg);
     background-size: cover;
 }
-main{
-    margin: auto;
-    width: 50%;
-}
 header{
     background-image: url(homestudio1.jpg);
     color: white;
     height: 520px;
     background-position:0 25%;
 }
-h1#prodbud{
-    margin: 0;
-    padding: 20px 0 0 0;
-    font-size: 120px;
-    font-family: Dopestyle;
-    font-weight:normal;
+.welcome{
+    text-align: center;
+    font-weight: normal;
 }
-p#slogan{
-    margin: 0 15px;
-    font-size: 20px;
-    font-family: 'Courgette';
-}
-.navigation{
-    font-family: 'Roboto Condensed', sans-serif;
+.welcome h2{
     font-size: 50px;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border: white solid;
-    padding: 0 13.7px;
+    padding: 100px 0 0 0;
+    font-family: Dopestyle;
 }
-.navigation:hover{
-    background-color: white;
-    border: black solid;
-    color: black;
-    box-shadow: 2px 2px 20px black;
+.welcome h1{
+    margin: 0;
+    font-size: 150px;
+    font-family: Dopestyle;
 }
-p#about{
-    background-color: white;
-    padding: 20px;
-    border: black solid;
-    font-family: 'Roboto Condensed', sans-serif;
+button{
+    margin: 40px 0 0 0;
+    border: none;
+    background: linear-gradient(to bottom right, darkgreen, limegreen);
+    padding: 10px;
     font-size: 20px;
+    border-radius: 5px;
 }

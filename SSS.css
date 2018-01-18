@@ -88,9 +88,9 @@ img{
     width: 70%;
     margin: auto;
 }
-h3{
+#welcome{
     font-family: Dopestyle;
-    font-size: 60px;
+    font-size: 120px;
     margin: 100px 0 0;
     font-weight: normal;
 }

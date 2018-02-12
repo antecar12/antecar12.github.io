@@ -6,7 +6,7 @@ font-family: "Dopestyle";
 src: url("Fonts/Dopestyle.ttf");
 }
 body{
-    background-image: url(SSSmobile.png);
+    background-image: url(SSSbakgrundmabile.jpg);
     background-size: cover;
     margin: 0;
     font-family: sans-serif;
@@ -90,7 +90,7 @@ img{
 }
 #welcome{
     font-family: Dopestyle;
-    font-size: 120px;
+    font-size: 60px;
     margin: 100px 0 0;
     font-weight: normal;
 }
@@ -99,7 +99,7 @@ img{
 }
 @media screen and (min-width: 600px) {
     body{
-        background-image: url(SSSdesktop.jpg);
+        background-image: url(SSSbakgrundlaptop.jpg);
         background-size: cover;
     }
     div{
@@ -131,5 +131,11 @@ img{
     font-size: 15px;
     width: 35%;
     margin: auto;
+}
+    #welcome{
+    font-family: Dopestyle;
+    font-size: 120px;
+    margin: 100px 0 0;
+    font-weight: normal;
 }
 }

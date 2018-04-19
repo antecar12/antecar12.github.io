@@ -13,25 +13,29 @@ var GameState = {
 
     create: function () {
 
-        // Add player.
+        // Add player
         this.player = this.game.add.sprite(game.world.centerX, 900, 'player');
         this.player.anchor.setTo(0.5);
         this.game.physics.arcade.enable(this.player)
         
-        //Score Counter.
+        //Score Counter
         scorecount = this.add.text(game.world.centerX, game.world.centerY, score, {fontSize: '350px', fill: '#181818'});
         scorecount.anchor.setTo(0.5);
 
         obstacles.push(this.createObstacle());
     },
     
+    //Game Over Function & transfer variable: score 
     gameOver: function () {
         
         game.state.start('GameOver', true, false, score)
     },
 
+    //Create Obstacles and randomize their position
     createObstacle: function () {
+        
         var x;
+       
         // Get 0 or 1
         if (Math.round(Math.random())) {
             x = 360;
@@ -55,43 +59,45 @@ var GameState = {
         
         obstacles.forEach(function (obstacle) {
         
-            // Adding Speed to the obstacles.
+            // Adding Speed to the obstacles
             obstacle.y = obstacle.y + speed;
 
-            // If an obstacle has passed halfway, add new.
+            // If an obstacle has passed halfway, add new
             if (obstacle.y > game.world.height / 2 && !obstacle.passed) {
                 shouldAddObstacle = true;
                 obstacle.passed = true;
             }
 
-            // If at the bottom, delete obstacle.
+            // If at the bottom, delete obstacle
             if (obstacle.y > game.world.height) {
                 outsideBoundraries = true;
             }
         
+            //If Player and Obstacle overlap trigger gameOver function
             game.physics.arcade.overlap(that.player, obstacle, that.gameOver);
 
         });
 
+        //Add new obstacle
         if (shouldAddObstacle) {
             obstacles.push(this.createObstacle())
         }
         
-        // Increase Score & Speed when obstacle is outside boundraries.
+        // Increase Score & Speed when obstacle is outside boundraries
         if (outsideBoundraries) {
             obstacles.shift();
             score++;
             scorecount.setText(score);
             
-            // If speed reaches 30 stop increasing it.
+            // If speed reaches 30 stop increasing
             if (speed < 30) {
                 speed += 0.30;
             }
             
+            //At specific scores set speeds
             if (score >= 200) {
                 speed = 32.5;
             }
-            
             if (score >= 300) {
                 speed = 35;
             }
@@ -99,7 +105,7 @@ var GameState = {
 
         console.log(score, speed);
         
-        // Cursor controls.
+        // Controls and player positioning
         if (this.cursors.left.isDown) {
             this.player.x = 180;
         }

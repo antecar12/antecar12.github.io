@@ -23,6 +23,9 @@ var GameOver = {
         var credits = this.add.text(game.world.centerX, 970, 'Pictures made by: Anton Carlstedt also brought from openclipart.org', style3);
         credits.anchor.setTo(0.5);
         
+        var credits = this.add.text(game.world.centerX, 50, 'My name is Anton Carlstedt and i study programming on Ullvigymnasiet in Köping, thanks for playing my game!', style3);
+        credits.anchor.setTo(0.5);
+        
         //Restart button
         var restart = game.add.button(game.world.centerX, 800, 'restart');
         restart.anchor.setTo(0.5);
